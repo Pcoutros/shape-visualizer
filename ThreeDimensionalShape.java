@@ -1,6 +1,5 @@
 /**
  * File Name: ThreeDimensionalShape.java
- * Course: CMSC335 7381
  * Date: 10/26/2023 
  * MODIFIED 11/12/2023
  * Author: Pete Coutros
@@ -12,8 +11,6 @@
  * It has a get/set method for the field. 
  * 
  * This class is a child class of Shape and a parent class to Sphere, Cube, Cone, Cylinder, and Torus.
- * 
- * @author Pete Coutros
  */
 import javax.swing.ImageIcon;
 
