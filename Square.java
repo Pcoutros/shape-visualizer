@@ -84,11 +84,11 @@ public class Square extends TwoDimensionalShape {
 	 * @param Graphics g, int x, int y
 	 */
 	@Override
-    public void draw(Graphics g, int x, int y) {
-    	//X and Y coordinates of the JPanel are adjusted so that the center of the Square is in the
-    	//center of the JPanel, otherwise the top-left hand corner would be. Need to use drawRect and
-    	//pass side in twice.
-    	g.drawRect(((int)(x - (side/2))), ((int)(y - (side/2))), (int)side, (int)side);
-    }
+    	public void draw(Graphics g, int x, int y) {
+	    	//X and Y coordinates of the JPanel are adjusted so that the center of the Square is in the
+	    	//center of the JPanel, otherwise the top-left hand corner would be. Need to use drawRect and
+	    	//pass side in twice.
+	    	g.drawRect(((int)(x - (side/2))), ((int)(y - (side/2))), (int)side, (int)side);
+    	}
 
 }
