@@ -1,6 +1,5 @@
 /**
  * File Name: Torus.java
- * Course: CMSC335 7381
  * Date: 10/26/2023 
  * MODIFIED: 11/12/2023
  * Author: Pete Coutros
@@ -21,8 +20,6 @@
  * That validation must occur prior to the instantiation of an object of this class!
  * 
  * TYPE: REGULAR CIRCULAR (INCLUDING CROSS-SECTION) TORUS
- * 
- * @author Pete Coutros
  */
 import java.awt.Image;
 import javax.swing.ImageIcon;
