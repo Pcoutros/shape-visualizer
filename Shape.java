@@ -1,6 +1,5 @@
 /**
  * File Name: Shape.java
- * Course: CMSC335 7381
  * Date: 10/26/2023 
  * Author: Pete Coutros
  * 
@@ -13,14 +12,12 @@
  * This is a parent class to TwoDimensionalShape and ThreeDimensionalShape.
  * 
  * Checking for non-negative field(s) does NOT occur in this class. That validation must occur prior to using the class.
- * 
- * @author Pete Coutros
  */
 
 public abstract class Shape extends Object {		//Don't need to explicitly declare extends Object
 	
 	//Attribute
-	private int numOfDimensions;					//used to store number of dimensions of a shape
+	private int numOfDimensions;			//used to store number of dimensions of a shape
 	
 	/**
 	 * Constructor initializes the private field of the class that is shared with all subclasses, 
