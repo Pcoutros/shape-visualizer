@@ -1,6 +1,5 @@
 /**
  * File Name: Cylinder.java
- * Course: CMSC335 7381
  * Date: 10/26/2023 
  * MODIFIED: 11/12/2023
  * Author: Pete Coutros
@@ -19,8 +18,6 @@
  * of an object of this class!
  * 
  * TYPE: RIGHT CIRCULAR CYLINDER
- * 
- * @author Pete Coutros
  */
 import java.awt.Image;
 import javax.swing.ImageIcon;
