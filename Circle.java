@@ -86,11 +86,11 @@ public class Circle extends TwoDimensionalShape {
 	 * @param Graphics g, int x, int y
 	 */
 	@Override
-    public void draw(Graphics g, int x, int y) {
-    	//X and Y coordinates of the JPanel are adjusted so that the center of the Circle is in the
-    	//center of the JPanel, otherwise the top-left hand corner would be. Need to multiply radius
-    	//by two to get the diameter as that is how drawOval works for circles.
-        g.drawOval(((int)(x-radius)), ((int)(y-radius)), ((int)(2 * radius)), ((int)(2 * radius)));
-    }
+	public void draw(Graphics g, int x, int y) {
+	    	//X and Y coordinates of the JPanel are adjusted so that the center of the Circle is in the
+	    	//center of the JPanel, otherwise the top-left hand corner would be. Need to multiply radius
+	    	//by two to get the diameter as that is how drawOval works for circles.
+	        g.drawOval(((int)(x-radius)), ((int)(y-radius)), ((int)(2 * radius)), ((int)(2 * radius)));
+	}
 
 }
