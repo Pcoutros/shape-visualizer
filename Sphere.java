@@ -1,6 +1,5 @@
 /**
  * File Name: Sphere.java
- * Course: CMSC335 7381
  * Date: 10/26/2023 
  * MODIFIED: 11/12/2023
  * Author: Pete Coutros
@@ -19,8 +18,6 @@
  * of an object of this class!
  * 
  * TYPE: REGULAR SPHERE
- * 
- * @author Pete Coutros
  */
 import java.awt.Image;
 import javax.swing.ImageIcon;
@@ -28,7 +25,7 @@ import javax.swing.ImageIcon;
 public class Sphere extends ThreeDimensionalShape {
 	
 	//Attribute 
-	private double radius;									//used to calculate the volume of a sphere
+	private double radius;				//used to calculate the volume of a sphere
 	
 	/**
 	 * Constructor initializes the private field of the class (radius). This constructor calls the constructor
